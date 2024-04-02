@@ -20,7 +20,6 @@ namespace Diary_Pet_Project.DAL.DependencyInjection
                 options.UseSqlServer(connectionString);
             });
             services.InitReopositories();
-
         }
 
         private static void InitReopositories(this IServiceCollection services)
