@@ -10,10 +10,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Diary_Pet_Project.Application\Diary_Pet_Project.Application.csproj" />
     <ProjectReference Include="..\Diary_Pet_Project.DAL\Diary_Pet_Project.DAL.csproj" />
   </ItemGroup>
 
